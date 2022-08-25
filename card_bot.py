@@ -13,7 +13,7 @@ bot = TeleBot(token='ВВЕДИТЕ СВОЙ ТОКЕН', parse_mode='html')
 
 faker = Faker() 
 
-# объект клавиаутры
+
 card_type_keybaord = types.ReplyKeyboardMarkup(resize_keyboard=True)
 
 card_type_keybaord.row(
